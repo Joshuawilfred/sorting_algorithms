@@ -1,9 +1,9 @@
 #include "sort.h"
 
 /**
- *
  *insertion_sort_list - sort doblinked list in asending
- *@list: double ptr to the head of linked list
+ *@list: double prin to the head of linked list
+ *
  */
 void insertion_sort_list(listint_t **list)
 {
@@ -32,3 +32,4 @@ void insertion_sort_list(listint_t **list)
 		insert_node = next_insert;
 	}
 }
+
